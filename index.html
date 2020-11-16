@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title>responsive frame
+</title>
+<link rel="stylesheet" href="file:///C:/Users/Dell/Desktop/projects/css/bootstrap.min.css">
+<link rel="stylesheet" href="file:///C:/Users/Dell/Desktop/projects/js/bootstrap.min.js">
+</head>
+<script>
+
+</script>
+<style>
+* {box-sizing: border-box; margin: 0px; padding: 0px;}
+body {padding: 0px; margin: 0px;}
+.brand {color: white;}
+.first_sect {background-image:url(s5.jpg); background-repeat: none;}
+.first_div {background-color: rgb(0,0,0,0.6);}
+.navbar {display: flex; justify-content: space-between; align-items: center; background-color:transparent; color: white;}
+.brand-title {font-size: 14px; padding: 0.5rem; padding-bottom: 2px;}
+.navbar-links ul {padding: 0; margin: 0px; display: flex; text-indent: 20px; text-decoration: none; list-style-type: none; color: white;}
+.navbar-links ul li a {color: white;}
+.navbar-links ul li a:hover {background-color: #555; text-decoration: none;}
+.toggle-button {position: absolute; top: .75rem; right: 1rem; display: none; flex-direction: column; justify-content: space-between; width: 30px; height: 21px;}
+.toggle-button .bar {height: 3px; width: 100%; background-color: white; border-radius: 10px;}
+.get {background-color: blue; color: #FFFFF0; width: 120px; border-radius: 5px; border: 0px; height: 40px; text-align: center;}
+.hearder_r {margin-top: 10%; margin-left: 5%;}
+.hearder_one {color: white; font-size: 30px;}
+.hearder_two {color: white; font-size: 15px;}
+.got {background-color: blue; color: white; width: 200px; border-radius: 5px; border: 0px; height: 40px;}
+.cont {background-color: rgb(0,0,0);} 
+.tab {width: 100%; background-color:}
+.search {border: 0px; width: 95%; background-color: white; border-radius: 5px; height: 40px; text-align: center;}
+.submit {border: 0px; width: 70%; background-color: rgb(139,0,0); height: 40px; border-radius: 5px; color: white;}
+.tin {color: white; text-align: center;}
+.tick {font-size: 30px; text-align: center; color:rgb(139,0,0);}
+.ton {font-size: 18px; text-align: center;}
+.peak {color: rgb(139,0,0);}
+.time {background-color: rgb(0,0,0); text-align: center;}
+.tim {color: white; font-size:30px;}
+.tem {color: black; font-size: 30px; text-align: center;}
+.img {width: 200px; margin: 20px;}
+.img2 {width: 100px}
+@media (max-width: 600px) { 
+.navbar-links {display: none;width: 100%;}
+.navbar {flex-direction: column; align-items: flex-start;}
+.navbar-links ul { width: 100%; display: flex; flex-direction: column; text-align: center;}
+.navbar-links ul li {paddin: 50px; padding-bottom: 40px;}
+.navbar-links ul li:hover {width: 100%; background-color: rgb(0,0,0,0.7);}
+.toggle-button {display: flex;}
+.navbar-links.active {display : flex;}
+}
+</style>
+<body>
+<section class="first_sect">
+<div class="first_div">
+<nav class="navbar">
+<div class="brand-title"> JUST<span class="brand"> <em> ANSWER</em></span></div>
+<a class="toggle-button">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span></a>
+<div class="navbar-links">
+<ul>
+<li><a href="#">home</a></li>
+<li><a href="#">services</a></li>
+<li><a href="#">contact us</a></li>
+<li><a href="#">faq</a></li>
+<li><a href="#">noso</a></li>
+<li><a href="#"><button type="button" class="get">get a quote</button></a></li>
+</ul></div></nav>
+<section>
+<div class="hearder_r">
+<div class="hearder_one"><em> YOUR BEST SEARCH TOOL</em></div>
+<div class="hearder_two"><em>A search engine that enables easy search</em></div><br>
+<a href="#"><button type="button" class="got">get a quote</button></a><br><br>
+<a href="#"><button type="button" class="got">get a quote</button></a></div></section><br>
+</section>
+<section class="cont"><br>
+<div class="container">
+<div>
+<table class="tab">
+<tr>
+<td class="ten">
+<input type= text placeholder= "search for keywords" class="search" style="color: black;"></td>
+<td class="ton"><input type= submit class="submit"></td></tr></table><br>
+<div class="tin">by clicking search you agree with our <a href="#">terms and condition</a>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<div class="tick"><em>Pellentesque habitant morbi tristique senectus</em> </div>
+<div class="ton"><em>Pellentesque habitant morbi tristique senectus</em> </div><br>
+<div class="row">
+<div class="col-lg-4 col-xs-6 thumbnail">
+<img src="s5.jpg" class="img">
+</div>
+<div class="col-lg-4 col-xs-6 thumbnail">
+<img src="s7.jpg" class="img">
+</div>
+<div class="col-lg-4 col-xs-6 thumbnail">
+<img src="s4.jpg" class="img">
+</div></div>
+<div class="row">
+<div class="col-lg-4 col-xs-6 thumbnail">
+<h5 class="peak">inspire trust</h5>
+<h6 class="pek">Pellentesque habitant morbi tristique senectus 
+et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies 
+</h6>
+</div><br>
+<div class="col-lg-4 col-xs-6 thumbnail">
+<h5 class="peak">boost result</h5>
+<h6 class="pek">Pellentesque habitant morbi tristique senectus 
+et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies 
+</h6>
+</div><br>
+<div class="col-lg-4 col-xs-6 thumbnail">
+<h5 class="peak">gain control</h5>
+<h6 class="pek">Pellentesque habitant morbi tristique senectus 
+et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies 
+ </h6>
+</div></div>
+</section><br>
+<section>
+<div class="container">
+<div  class="tem">The most recognized brand on this site</div><br>
+<div class="row">
+<div class="col-lg-2 col-6 thumbnail">
+<img src="Coca-Cola_logo_2007.jpg" class="img2">
+</div><br><br>
+<div class="col-lg-2 col-6 thumbnail">
+<img src="images%20(1).png" class="img2">
+</div><br><br>
+<div class="col-lg-2 col-6 thumbnail">
+<img src="images%20(4).jpg" class="img2">
+</div><br><br>
+<div class="col-lg-2 col-6 thumbnail">
+<img src="images%20(3).jpg" class="img2">
+</div><br><br>
+<div class="col-lg-2 col-6 thumbnail">
+<img src="images%20(6).jpg" class="img2">
+</div><br><br>
+<div class="col-lg-2 col-6 thumbnail">
+<img src="images%20(5).jpg" class="img2">
+</div></div></div></section><br>
+<section class="time"><br>
+<div class="tim">MORE THAN A SEARCH ENGINE</div><br>
+<a href="#"><button type="button" class="got">get started</button><br><br>
+</section>
+<section>
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">PellentesquePell</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">PellentesquePell</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+        <li><a class="text-muted" href="#">Pellentesque</a></li>
+        <li><a class="text-muted" href="#">tempor sit amet</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">company email</a></li>
+        <li><a class="text-muted" href="#">company email2</a></li>
+		<li><a class="text-muted" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3.925 1.745a.636.636 0 0 0-.951-.059l-.97.97c-.453.453-.62 1.095-.421 1.658A16.47 16.47 0 0 0 5.49 10.51a16.471 16.471 0 0 0 6.196 3.907c.563.198 1.205.032 1.658-.421l.97-.97a.636.636 0 0 0-.06-.951l-2.162-1.682a.636.636 0 0 0-.544-.115l-2.052.513a1.636 1.636 0 0 1-1.554-.43L5.64 8.058a1.636 1.636 0 0 1-.43-1.554l.513-2.052a.636.636 0 0 0-.115-.544L3.925 1.745zM2.267.98a1.636 1.636 0 0 1 2.448.153l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+</svg>&nbsp;&nbsp;&nbsp;
+phone number</a></li>
+      </ul>
+    </div>
+  </div>
+  </div></section>
+<script src="file:///C:/Users/Dell/Desktop/projects/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function() {
+$('.toggle-button').click(function() {
+$('.navbar-links').toggle();
+});
+if(window > 600) {
+ $('.navbar').show();
+ }
+});
+</script>
+</body>
+</html>
